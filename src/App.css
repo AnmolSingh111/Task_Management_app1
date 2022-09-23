@@ -1,0 +1,66 @@
+.main {
+  background-color: #494f55;
+  width: 40vw;
+  color: white;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 5%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 8px;
+}
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputForm {
+  padding: 10px;
+  border: none;
+  margin-top: 8 px;
+  margin-bottom: 15px;
+}
+label {
+  margin-top: 10px;
+  font-size: larger;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.btnSave {
+  width: 100px;
+  height: 30px;
+  pad: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.btnwrapper {
+  display: flex;
+  gap: 10px;
+}
+.Card {
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  color: black;
+}
+
+@media only screen and (max-width: 450px) {
+  /* For desktop: */
+
+  .main {
+    width: 85vw;
+  }
+}
